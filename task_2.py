@@ -1,5 +1,6 @@
-# Название магазина
-class_name="Гладиолус" 
-
-print("Добрый день вы работаете в магазине:")
-print(class_name)
+text_1= input("Напишите первое число")
+text_2= input("Напишите второе число")
+text_3= input("Напишите третье число")
+number= int(text_1+text_2+text_3)
+multiplication=(number/3)
+print(multiplication)
